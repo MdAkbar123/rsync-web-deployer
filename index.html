@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Static Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Welcome</h1>
+    <p class="subtitle">A minimal HTML / CSS / JS example</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Deployed via automated rsync 🚀</h1>
+      <p>This site is served by Nginx on AWS EC2.</p>
+      <h2>Interactive demo</h2>
+      <p>Click the button to toggle dark mode and add an item to the list.</p>
+      <div class="controls">
+        <input id="itemInput" type="text" placeholder="New item" />
+        <button id="addBtn">Add</button>
+        <button id="toggleBtn">Toggle Dark Mode</button>
+      </div>
+      <ul id="items" class="items"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Built with plain HTML/CSS/JS</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
