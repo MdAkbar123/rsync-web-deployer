@@ -91,3 +91,4 @@ Rsync will transmit only modified files and delete removed files (due to --delet
 - If using a non-default user or path, update SERVER, KEY and REMOTE_DIR accordingly.
 
 That's it — a minimal, repeatable deploy flow for static sites using Bash + rsync.
+https://roadmap.sh/projects/static-site-server
